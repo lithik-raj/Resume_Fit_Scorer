@@ -1,0 +1,48 @@
+AI Engineer / Applied AI Intern
+
+Banao Technologies is looking for an AI Engineer / Applied AI Intern to work on real-world AI systems and AI-driven application development.
+
+Responsibilities:
+
+- Build and ship AI-powered applications and production-ready solutions.
+- Work with Large Language Models (LLMs), Generative AI and AI application development.
+- Develop and integrate AI solutions into real business workflows.
+- Understand business requirements and convert them into technical solutions.
+- Participate in system design and software architecture decisions.
+- Write clean, maintainable and testable Python code.
+- Apply Test-Driven Development (TDD) and engineering best practices.
+- Work on scalable AI systems and production-oriented applications.
+- Use APIs, AI models and modern software development tools.
+- Analyze problems and evaluate technical trade-offs.
+- Work with clients and internal teams to understand requirements.
+- Take ownership of assigned projects and features.
+- Learn new technologies quickly and use AI/LLMs effectively.
+
+Required Skills:
+
+- Strong Python programming skills.
+- Understanding of Machine Learning and Artificial Intelligence.
+- Knowledge of Generative AI and Large Language Models.
+- Familiarity with prompt engineering and AI APIs.
+- Understanding of software engineering fundamentals.
+- Knowledge of REST APIs and application development.
+- Basic understanding of system design and software architecture.
+- Experience building academic, personal or internship projects.
+- Strong problem-solving and analytical skills.
+- Good written and spoken English.
+- Ability to work independently and take ownership.
+- Willingness to learn quickly.
+
+Preferred Skills:
+
+- Experience with FastAPI or Flask.
+- Experience with NLP, RAG or AI agents.
+- Experience integrating LLM APIs into applications.
+- Git and GitHub experience.
+- Experience building production-oriented applications.
+
+Eligibility:
+
+- Students or recent graduates interested in Applied AI and AI Engineering.
+- Candidates with strong project experience are encouraged to apply.
+- Candidates should be able to explain their projects and technical decisions.

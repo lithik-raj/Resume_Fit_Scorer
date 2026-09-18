@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Resume Fit Results</title>
+
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+
+  <body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <main class="app-container results-container">
+      <header class="results-header">
+        <a href="/" class="back-button"> ← New Analysis </a>
+
+        <div class="logo">
+          <span class="logo-symbol">RF</span>
+          <span class="logo-text">Resume Fit Scorer</span>
+        </div>
+      </header>
+
+      <!-- Overall Score -->
+
+      <section class="card score-card">
+        <div class="score-label">OVERALL FIT SCORE</div>
+
+        <div class="score-display">
+          <span id="overallScore">--</span>
+          <small>/ 100</small>
+        </div>
+
+        <div class="score-progress">
+          <div id="scoreProgress" class="score-progress-fill"></div>
+        </div>
+
+        <p id="scoreMessage" class="score-message">Analyzing resume fit...</p>
+      </section>
+
+      <!-- Resume Information -->
+
+      <section class="card resume-summary">
+        <div class="section-heading">
+          <span class="step-number">01</span>
+
+          <div>
+            <h2>Resume Analysis</h2>
+
+            <p id="resumeFileName">Resume</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Criteria Results -->
+
+      <section class="criteria-section">
+        <div class="section-heading">
+          <span class="step-number">02</span>
+
+          <div>
+            <h2>Criterion Breakdown</h2>
+
+            <p>Evidence and reasoning for each job requirement.</p>
+          </div>
+        </div>
+
+        <div id="criteriaContainer" class="criteria-container">
+          <!-- Criterion cards are inserted by script.js -->
+        </div>
+      </section>
+
+      <!-- Bottom Action -->
+
+      <section class="results-actions">
+        <a href="/" class="analyze-button secondary-button">
+          Analyze Another Resume
+          <span class="button-arrow">→</span>
+        </a>
+      </section>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>

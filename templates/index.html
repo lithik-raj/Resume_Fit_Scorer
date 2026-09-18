@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Resume Fit Scorer</title>
+
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+
+  <body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <main class="app-container">
+      <header class="hero-section">
+        <div class="logo">
+          <span class="logo-symbol">RF</span>
+          <span class="logo-text">Resume Fit Scorer</span>
+        </div>
+
+        <p class="hero-subtitle">
+          AI-powered resume matching against job requirements
+        </p>
+      </header>
+
+      <section class="card input-card">
+        <div class="section-heading">
+          <span class="step-number">01</span>
+
+          <div>
+            <h2>Job Description</h2>
+            <p>Paste the job description you want to evaluate.</p>
+          </div>
+        </div>
+
+        <textarea
+          id="jobDescription"
+          placeholder="Paste the complete job description here..."
+          maxlength="15000"
+        ></textarea>
+
+        <div class="character-count">
+          <span id="jdCharacterCount">0</span> characters
+        </div>
+      </section>
+
+      <section class="card input-card">
+        <div class="section-heading">
+          <span class="step-number">02</span>
+
+          <div>
+            <h2>Upload Resume</h2>
+            <p>Upload a PDF or TXT resume.</p>
+          </div>
+        </div>
+
+        <label for="resumeFile" class="upload-area" id="uploadArea">
+          <div class="upload-icon">↑</div>
+
+          <div>
+            <strong id="fileName"> Choose your resume </strong>
+
+            <span> PDF or TXT • Maximum recommended size: 10 MB </span>
+          </div>
+        </label>
+
+        <input type="file" id="resumeFile" accept=".pdf,.txt" hidden />
+      </section>
+
+      <section class="action-section">
+        <button id="analyzeButton" class="analyze-button">
+          <span>Analyze Resume</span>
+          <span class="button-arrow">→</span>
+        </button>
+
+        <div id="loadingMessage" class="loading-message hidden">
+          <div class="spinner"></div>
+
+          <span> Analyzing your resume... </span>
+        </div>
+
+        <div id="errorMessage" class="error-message hidden"></div>
+      </section>
+
+      <section class="info-section">
+        <div class="info-item">
+          <span>AI Analysis</span>
+          <small> Evidence-based criterion matching </small>
+        </div>
+
+        <div class="info-item">
+          <span>0–100 Score</span>
+          <small> Configuration-driven scoring </small>
+        </div>
+
+        <div class="info-item">
+          <span>Transparent</span>
+          <small> Evidence and reasoning for every criterion </small>
+        </div>
+      </section>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+Lithik Raj B G
+
+BTech Artificial Intelligence and Data Science
+
+Skills:
+Python, Machine Learning, Artificial Intelligence, Generative AI, LLMs, Prompt Engineering, FastAPI, Flask, REST APIs, Git, GitHub, Pandas, NumPy, Scikit-learn, NLP.
+
+Projects:
+Resume Fit Scorer — Built an AI-based application that compares resumes with job descriptions using LLM analysis and configuration-driven scoring.
+
+Intel Chatbot — Developed a Python and Flask chatbot using machine learning, NLP, APIs, and CSV-based question-answer data.
+
+Student Placement Analytics System — Developed a FastAPI/Flask-based analytics application for student placement, skills, and career-readiness analysis.
+
+Experience:
+Academic and personal project experience in Python, Machine Learning, AI application development, and web-based AI systems.
+
+Education:
+BTech in Artificial Intelligence and Data Science.
+
+Soft Skills:
+Problem solving, analytical thinking, communication, teamwork, adaptability, and willingness to learn.
