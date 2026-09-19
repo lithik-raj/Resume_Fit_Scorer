@@ -1,4 +1,4 @@
-import json
+import json 
 import os
 
 from dotenv import load_dotenv
@@ -97,7 +97,14 @@ Return:
             max_tokens=1500,
         )
 
-        output_text = response.choices[0].message.content.strip()
+        content = response.choices[0].message.content
+
+        if not content:
+            raise JDExtractionError(
+                "OpenRouter returned an empty response."
+            )
+
+        output_text = content.strip()
 
         output_text = output_text.replace(
             "```json", ""
@@ -139,6 +146,7 @@ Return:
 
         for item in extracted:
             category = item["category"]
+
             category_counts[category] = (
                 category_counts.get(category, 0) + 1
             )
@@ -172,7 +180,9 @@ Return:
                 )
             )
 
-        return CriteriaResponse(criteria=results)
+        return CriteriaResponse(
+            criteria=results
+        )
 
     except JDExtractionError:
         raise
@@ -181,4 +191,3 @@ Return:
         raise JDExtractionError(
             f"OpenRouter request failed: {exc}"
         ) from exc
-
